@@ -1,5 +1,9 @@
 #!/usr/bin/env groovy
 
 def call(service, tag) {
-    println("Build Docker image")
+    try {
+        println("Build Docker image")
+    } catch(Exception e) {
+        println(e)
+    }
 }

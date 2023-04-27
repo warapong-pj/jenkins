@@ -1,5 +1,9 @@
 #!/usr/bin/env groovy
 
 def call(String repository) {
-    println("Checkout Source Code")
+    try {
+        println("Checkout Source Code")
+    } catch(Exception e) {
+        println(e)
+    }
 }

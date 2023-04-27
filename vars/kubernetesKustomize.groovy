@@ -1,5 +1,9 @@
 #!/usr/bin/env groovy
 
 def call(cluster) {
-    println("Kustomize Deployment")
+    try {
+        println("Kustomize Deployment")
+    } catch(Exception e) {
+        println(e)
+    }
 }

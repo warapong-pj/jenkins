@@ -1,5 +1,9 @@
 #!/usr/bin/env groovy
 
 def call(cluster) {
-    println("Kubectl Deployment")
+    try {
+        println("Kubectl Deployment")
+    } catch(Exception e) {
+        println(e)
+    }
 }
