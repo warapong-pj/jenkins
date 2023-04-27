@@ -1,3 +1,3 @@
 def call(registry, service, tag) {
-    println("Tag Docker image")
+    println("Push Docker image")
 }
