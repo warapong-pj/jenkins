@@ -1,5 +1,9 @@
 #!/usr/bin/env groovy
 
 def call() {
-    println("Build Java")
+    try {
+        println("Build Java")    
+    } catch(ExceptionName e) {
+        println(e)
+    }
 }
