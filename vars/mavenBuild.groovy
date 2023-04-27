@@ -3,7 +3,7 @@
 def call() {
     try {
         println("Build Java")    
-    } catch(e) {
+    } catch(Exception e) {
         println(e)
     }
 }
